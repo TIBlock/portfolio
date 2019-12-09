@@ -2172,6 +2172,8 @@ input, select, textarea {
 						color: #e27689;
 					}
 
+	
+
 /* Footer */
 
 	#footer {
@@ -2289,9 +2291,9 @@ input, select, textarea {
 
 		/* Header */
 
-			#header {
-				width: 300px;
-			}
+			/* #header {
+				width: 375px;
+			} */
 
 		/* Footer */
 
@@ -2305,6 +2307,13 @@ input, select, textarea {
 				margin-left: 300px;
 			}
 
+			#logo h1 {
+				position: relative;
+				color: #fff;
+				font-weight: 600;
+				font-size: .8em;
+				line-height: 1em;
+			}
 
 	}
 
