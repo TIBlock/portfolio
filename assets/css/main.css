@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -89,6 +91,7 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
+		overscroll-behavior: none;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -267,6 +270,12 @@ input, select, textarea {
 
 		}
 
+
+		.skills-container {
+			display: flex;
+			justify-content: center;
+		}
+
 /* Row */
 
 	.row {
@@ -274,6 +283,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		
 	}
 
 		.row > * {
@@ -1774,6 +1784,11 @@ input, select, textarea {
 				height: 90px;
 			}
 
+		.redux img{
+			width: 80px;
+			height: 80px;
+		}
+
 		.image.fit {
 			display: block;
 			width: 100%;
@@ -2275,6 +2290,12 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
+				
+
+			}
+			#main > section.five {
+				background-color: #e8edec;
+
 			}
 
 /* Wide */
@@ -2650,3 +2671,8 @@ input, select, textarea {
 				}
 
 	}
+
+
+	.flex-even {
+  flex: 1;
+}
