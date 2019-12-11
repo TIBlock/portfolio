@@ -223,7 +223,11 @@ input, select, textarea {
 			.container {
 				width: 1200px;
 			}
+			
+		}
 
+		#nav {
+			margin-top: 60px;
 		}
 
 		@media screen and (min-width: 961px) and (max-width: 1620px) {
@@ -239,6 +243,11 @@ input, select, textarea {
 			.container {
 				width: 100%;
 			}
+
+			#nav {
+				margin-top: 30px;
+			}
+
 
 		}
 
@@ -1754,15 +1763,15 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		.image.avatar144 {
-			width: 144px;
-			height: 144px;
+		.image.avatar48 {
+			width: 90px;
+			height: 90px;
 			background: #f00;
 		}
 
-			.image.avatar144 img {
-				width: 144px;
-				height: 144px;
+			.image.avatar48 img {
+				width: 90px;
+				height: 90px;
 			}
 
 		.image.fit {
@@ -2097,7 +2106,7 @@ input, select, textarea {
 	#logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 144px;
+		min-height: 48px;
 		cursor: default;
 	}
 
@@ -2172,8 +2181,6 @@ input, select, textarea {
 						color: #e27689;
 					}
 
-	
-
 /* Footer */
 
 	#footer {
@@ -2247,15 +2254,6 @@ input, select, textarea {
 				background-size: cover;
 				background-position: center center;
 			}
-			
-			.darken {
-				background-image: 
-				  linear-gradient(
-					rgba(0, 0, 0, 0.5),
-					rgba(0, 0, 0, 0.5)
-				  ),
-				  url(shoes.jpg);
-			  }
 
 			#main > section.one {
 				background-color: #81918E;
@@ -2291,9 +2289,10 @@ input, select, textarea {
 
 		/* Header */
 
-			/* #header {
-				width: 375px;
-			} */
+			#header {
+				width: 300px;
+			}
+
 
 		/* Footer */
 
@@ -2305,14 +2304,6 @@ input, select, textarea {
 
 			#main {
 				margin-left: 300px;
-			}
-
-			#logo h1 {
-				position: relative;
-				color: #fff;
-				font-weight: 600;
-				font-size: .8em;
-				line-height: 1em;
 			}
 
 	}
@@ -2484,8 +2475,12 @@ input, select, textarea {
 				margin: 1.5em 1.25em 1.25em 1.25em;
 			}
 
+			#nav {
+				margin-top: 60px;
+			}
+
 			#nav ul li a {
-				padding: 0.5em 1.25em 0.5em 1.25em;
+				padding: em 1.25em 0.5em 1.25em;
 			}
 
 			#headerToggle {
@@ -2600,24 +2595,6 @@ input, select, textarea {
 	}
 
 /* Mobile */
-
-@media screen and (max-width:961px ) {
-
-
-	#logo {
-		margin: 1.5em 1.25em 1.25em 1.25em;
-	}
-	.image.avatar144 {
-		width: 96px;
-		height: 96px;
-		background: #f00;
-	}
-	
-	.image.avatar144 img {
-		width: 96px;
-		height: 96px;
-	}
-}
 
 	@media screen and (max-width: 736px) {
 
