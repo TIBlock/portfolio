@@ -2015,8 +2015,16 @@ input, select, textarea {
 			font-size: 0.8em;
 		}
 
+		/* .item.img {
+			max-width: 50px;
+		} */
+
 			.item header h3 {
-				font-size: 1em;
+				font-size: 2em;
+			}
+
+			.item img{
+				border: 1px solid rgba(0, 0, 0, 0.384);
 			}
 
 /* Icons */
