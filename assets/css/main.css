@@ -2306,6 +2306,10 @@ input, select, textarea {
 
 			}
 
+			#title-box {
+				width: content;
+			}
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
