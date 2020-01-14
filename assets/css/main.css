@@ -1790,8 +1790,9 @@ input, select, textarea {
 		}
 
 		.image.fit {
+			margin: auto;
 			display: block;
-			width: 100%;
+			width: 75%;
 		}
 
 		.image.featured {
