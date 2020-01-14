@@ -226,6 +226,9 @@ input, select, textarea {
 			.container {
 				width: 1200px;
 			}
+			#sub-title {
+				font-size: 16px;
+			}
 			
 		}
 
@@ -237,6 +240,9 @@ input, select, textarea {
 
 			.container {
 				width: 960px;
+			}
+			#sub-title {
+				font-size: 16px;
 			}
 
 		}
@@ -250,6 +256,9 @@ input, select, textarea {
 			#nav {
 				margin-top: 30px;
 			}
+			#sub-title {
+				font-size: 16px;
+			}
 
 
 		}
@@ -260,6 +269,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#sub-title {
+				font-size: 16px;
+			}
+			
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -268,6 +282,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#sub-title {
+				font-size: 16px;
+			}
 		}
 
 
@@ -2157,7 +2174,7 @@ input, select, textarea {
 		}
 
 		#logo .image {
-			position: absolute;
+			position: fixed;
 			left: 0;
 			top: 0;
 		}
